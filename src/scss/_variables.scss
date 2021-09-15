@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@400;700&display=swap');
+
+$font-stack: 'Glory', sans-serif;
+
+$fs-h2: 2rem;
+$fs-body: 1.25rem;
+$fs-sub: 0.85rem;
+
+$dark-color: #222;
+$light-color: #eee;
+$accent-color: rgb(206, 67, 3);
+
+@mixin media-md {
+    @media screen and (min-width: 768px) {  
+            @content;
+        }
+}

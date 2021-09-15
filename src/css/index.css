@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Glory:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #222;
+  font-family: "Glory", sans-serif;
+  font-size: 1.25rem;
+}
+
+.shopping-cart {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.shop-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 1rem;
+  background-color: #ce4303;
+  color: #eee;
+  -webkit-box-shadow: 2px 2px 3px #a3a2a2;
+          box-shadow: 2px 2px 3px #a3a2a2;
+}
+
+.shop-header .header-title {
+  font-size: 2rem;
+  text-shadow: 1px 1px 1px #222;
+}
+
+.shop-header a {
+  color: #eee;
+  text-decoration: none;
+}
+
+.shop-header span {
+  font-size: 1.25rem;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* Product display section*/
+.products {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem .5rem 1rem 1rem;
+  display: -ms-grid;
+  display: grid;
+  gap: .5rem;
+  grid-auto-rows: 150px;
+  -ms-grid-columns: (minmax(150px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-auto-flow: dense;
+}
+
+.products-container {
+  position: relative;
+}
+
+.products-container .product-grid {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.wide {
+  grid-column: span 2;
+}
+
+.big {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.favorite {
+  color: #eee;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+}
+
+.cart {
+  color: #eee;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.preview {
+  color: #eee;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 5px;
+  left: 40px;
+  cursor: pointer;
+}
+
+.shopping-cart {
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */
