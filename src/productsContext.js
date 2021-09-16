@@ -34,13 +34,17 @@ const ContextProvider = ({children}) =>{
         setCartItems(updateCartItems)
     }
 
+    const emptyCart = () =>{
+        setCartItems([])
+    }
     return(
         <Context.Provider value={{
             allProducts, 
             cartItems,
             toggleFavour,
             addToCart,
-            removeFromCart
+            removeFromCart,
+            emptyCart
         }}>
             {children}
         </Context.Provider>
