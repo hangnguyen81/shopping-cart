@@ -14,4 +14,4 @@ Shopping cart waiting for process
 
 ![pic](https://i.ibb.co/F8rJ0mC/04.jpg)
 
-This project is not completed yet! I might update it with back-end part later!
+This project has not been completed yet! I might update it with back-end part later!
