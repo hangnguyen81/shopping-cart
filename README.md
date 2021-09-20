@@ -8,7 +8,7 @@ First, it will display a bunch of images of products (of food in this case). Whe
 
 ![A bunch of delicious food](https://i.ibb.co/10rcmV6/cart1.jpg)
 
-In the cart page, user can see the list of products they put in shopping cart. He/she can remove a product buy click Delete icon which is next to the photo). If the use is happy with its order, (s)he can press/click button 'Place Order' to process. After 3 seconds, order will be placed and all items are in the cart will be clear out. (I know the real process of placing order is more complicate then in here! I have not gone down that road yet)
+In the cart page, user can see the list of products they put in shopping cart. He/she can remove a product buy click Delete icon which is next to the photo). If the use is happy with its order, (s)he can press/click button 'Place Order' to process. After 3 seconds, order will be placed and all items are in the cart will be clear out. (I know the real process of placing order is more complicate than I did in this project! I have not gone down that road yet)
 
 Shopping cart waiting for process
 
